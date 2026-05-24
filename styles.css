@@ -1,0 +1,55 @@
+:root{
+  --bg:#fbf7f2;
+  --paper:#fff6ec;
+  --ink:#332927;
+  --accent:#b45f35;
+  --muted:#6b5a53;
+  --max-width:980px;
+}
+*{box-sizing:border-box}
+body{font-family:Roboto, system-ui, -apple-system, "Segoe UI", sans-serif;background:var(--bg);color:var(--ink);margin:0;line-height:1.5}
+.wrap{max-width:var(--max-width);margin:0 auto;padding:1rem}
+.site-header{background:linear-gradient(180deg, rgba(0,0,0,0.02), transparent);border-bottom:2px dashed rgba(0,0,0,0.04)}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between}
+.brand{font-family:Kalam, cursive;font-size:1.25rem;color:var(--ink);text-decoration:none}
+nav a{margin-left:1rem;color:var(--muted);text-decoration:none}
+
+.hero{display:flex;flex-wrap:wrap;gap:1rem;padding:1.25rem 0}
+.hero-art{flex:1 1 280px;border-radius:8px;overflow:hidden;box-shadow:6px 6px 0 rgba(0,0,0,0.03)}
+.hero-content{flex:2 1 320px}
+.hero-content h1{font-family:Kalam, cursive;font-size:1.8rem;margin:0}
+.cta-row{margin-top:0.75rem}
+.btn{display:inline-block;padding:0.5rem 0.85rem;border-radius:6px;background:transparent;border:2px solid var(--accent);color:var(--accent);text-decoration:none;font-weight:700}
+.btn.primary{background:var(--accent);color:#fff}
+
+.featured{margin-top:1.25rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.card{background:var(--paper);padding:0.9rem;border-radius:8px;box-shadow:2px 4px 0 rgba(0,0,0,0.03)}
+.card h3{margin:0 0 0.35rem 0}
+
+.rating{margin:1.25rem 0}
+.stars{font-size:1.6rem;color:#d4a85b}
+.muted{color:var(--muted)}
+
+.category-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1rem 0}
+.category{display:block;padding:1rem;background:var(--paper);border-radius:8px;text-decoration:none;color:var(--ink)}
+
+.article{padding:1rem 0}
+.article img{max-width:100%;height:auto;border-radius:6px}
+.hero-figure{margin:0 0 1rem 0}
+.article ol{padding-left:1.25rem}
+.article-nav{margin-top:1rem}
+
+.site-footer{border-top:1px solid rgba(0,0,0,0.04);padding:1rem 0;margin-top:2rem}
+
+/* hand-drawn paper texture using SVG data URI background */
+body::before{content:"";position:fixed;inset:0;pointer-events:none;background-image:linear-gradient(transparent 96%, rgba(0,0,0,0.01) 100%);opacity:0.6}
+
+@media (max-width:640px){
+  .hero{flex-direction:column}
+  .brand{font-size:1rem}
+  .hero-content h1{font-size:1.4rem}
+}
+
+/* Accessibility helpers */
+a:focus{outline:3px solid rgba(180,95,53,0.2);outline-offset:2px}
