@@ -2,6 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://thick-as-thieves-guide.vercel.app/sitemap.xml
-User-agent: *
-Allow: /
-Sitemap: /sitemap.xml

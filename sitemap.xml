@@ -7,31 +7,25 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://thick-as-thieves-guide.vercel.app/index.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://thick-as-thieves-guide.vercel.app/categories.html</loc>
+    <loc>https://thick-as-thieves-guide.vercel.app/categories</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://thick-as-thieves-guide.vercel.app/article.html</loc>
+    <loc>https://thick-as-thieves-guide.vercel.app/article</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://thick-as-thieves-guide.vercel.app/about.html</loc>
+    <loc>https://thick-as-thieves-guide.vercel.app/about</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://thick-as-thieves-guide.vercel.app/privacy.html</loc>
+    <loc>https://thick-as-thieves-guide.vercel.app/privacy</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
