@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://thick-as-thieves-guide.vercel.app/sitemap-v2.xml
 Sitemap: https://thick-as-thieves-guide.vercel.app/sitemap.xml
